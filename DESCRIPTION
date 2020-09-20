@@ -1,0 +1,17 @@
+Package: montyhall
+Title: Play the Famous Montyhall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Hayden",
+           family = "Smith",
+           role = c("aut", "cre"),
+           email = "hsmith42@asu.edu")
+Description: This package lists together a string of functions in order to play the famous Montyhall game. It is from a gameshow that has a contestant select 1 of 3 doors, behind one of which was a prize (such as a car). The other 2 doors had goats behind them to refer to losing the game (because you would obviously rather win a car). After the contestant chooses the door, the host opens one of the unchosen doors that has a goat behind it. Now the contestant still doesn't know if the door he or she chose has the car behind it or not and so the host asks if he or she would like to switch the door. This is where the strategy comes in. Does the contestant have more of a chance of winning the car from switching doors or staying with the originally selected door? This package writes the functions necessary to run through the game as many times as necessary to determine which strategy is dominant in playing the game.
+Depends:
+  dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
